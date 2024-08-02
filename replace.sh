@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 获取/root/backup目录下的所有文件夹
-folders=($(ls -d /root/backup/root/backup*/))
+folders=($(ls -d /root/backup/root/backup/*))
 
 # 检查是否存在文件夹
 if [ ${#folders[@]} -eq 0 ]; then
